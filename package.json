@@ -1,0 +1,27 @@
+{
+  "name": "emp-mgmt-system",
+  "version": "1.0.0",
+  "description": "Employee management system",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  },
+  "scripts": {
+    "test": "npx jest -c jest-unit-tests.json",
+    "start": "node -r esm index.js",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.8.0"
+  }
+}

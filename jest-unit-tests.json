@@ -1,0 +1,13 @@
+{
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "coverageReporters": [
+        "text",
+        "lcov",
+        "cobertura"
+    ],
+    "coverageDirectory": "./test-results/coverage",
+    "reporters":[
+        "default"
+    ]
+}

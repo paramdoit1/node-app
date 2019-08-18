@@ -8,7 +8,8 @@
     "npm": ">=6"
   },
   "scripts": {
-    "test": "npx jest -c jest-unit-tests.json",
+    "test:unit": "jest -c jest-unit-tests.json",
+    "test:functional": "jest -c jest.functional-tests.json",
     "start": "node -r esm index.js",
     "lint": "eslint ."
   },
@@ -16,7 +17,9 @@
   "license": "ISC",
   "dependencies": {
     "esm": "^3.2.25",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "superagent": "^5.1.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0",

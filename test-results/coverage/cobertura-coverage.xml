@@ -1,9 +1,31 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="0" lines-covered="0" line-rate="NaN" branches-valid="0" branches-covered="0" branch-rate="NaN" timestamp="1564815515808" complexity="0" version="0.1">
+<coverage lines-valid="11" lines-covered="11" line-rate="1" branches-valid="0" branches-covered="0" branch-rate="1" timestamp="1564815837442" complexity="0" version="0.1">
   <sources>
     <source>F:\workspace\Node\emp-mgmt-system</source>
   </sources>
   <packages>
+    <class name="employee.js" filename="src\handler\employee.js" line-rate="1" branch-rate="1">
+      <methods>
+        <method name="(anonymous_0)" hits="1" signature="()V">
+          <lines>
+            <line number="7" hits="1"/>
+          </lines>
+        </method>
+      </methods>
+      <lines>
+        <line number="1" hits="1" branch="false"/>
+        <line number="2" hits="1" branch="false"/>
+        <line number="4" hits="1" branch="false"/>
+        <line number="6" hits="1" branch="false"/>
+        <line number="7" hits="1" branch="false"/>
+        <line number="8" hits="1" branch="false"/>
+        <line number="9" hits="1" branch="false"/>
+        <line number="10" hits="1" branch="false"/>
+        <line number="11" hits="1" branch="false"/>
+        <line number="12" hits="1" branch="false"/>
+        <line number="15" hits="1" branch="false"/>
+      </lines>
+    </class>
   </packages>
 </coverage>

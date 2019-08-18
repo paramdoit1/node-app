@@ -1,0 +1,5 @@
+{
+    "testEnvironment": "node",
+    "rootDir":"__functional_tests__",
+    "testMatch":["**/__functional_tests__/*.js"]
+}
